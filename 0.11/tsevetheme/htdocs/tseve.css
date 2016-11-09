@@ -141,6 +141,10 @@ a, :link, :visited {
 	.custom-nav ul li {
 		display: table-cell;
 	}
+        .custom-nav ul li.first {
+                margin-left: 5px;
+                padding: 1px 6px;
+        }
 	.custom-nav ul li a {
 		border-radius: 2px;				/* Standard CSS3 */
 		-moz-border-radius: 2px;			/* Gecko based */
